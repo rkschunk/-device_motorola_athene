@@ -112,7 +112,7 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
     libbson \
     libshims_camera \
-    Camera2
+    GCam
 
 # Disable camera Treble path
 PRODUCT_PROPERTY_OVERRIDES += \

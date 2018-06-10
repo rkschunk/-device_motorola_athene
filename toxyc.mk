@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Inherit some common AEX stuff.
-$(call inherit-product, vendor/validus/config/common_full_phone.mk)
+$(call inherit-product, vendor/toxyc/config/common_full_phone.mk)
 
 $(call inherit-product, device/motorola/athene/full_athene.mk)
 
@@ -25,10 +25,10 @@ TARGET_BOOTANIMATION_HALF_RES := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := athene
-PRODUCT_NAME := validus_athene
+PRODUCT_NAME := toxyc_athene
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := athene
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-	DEVICE_MAINTAINERS="Adam Ovadia (oadam11)"
+#export
+TOXYC_BUILD_TYPE=OFFICIAL
